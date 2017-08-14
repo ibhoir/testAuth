@@ -11,7 +11,7 @@
   String ldapUsername = request.getParameter("username");
   String ldapPassword = request.getParameter("password");
   
-  String LDAPURL = System.getenv("LDAPURL");
+  String LDAPURL = System.getenv("LDAP_URL");
   
   out.println("LDAPURL"+ LDAPURL );
   
