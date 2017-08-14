@@ -13,10 +13,10 @@
   
   String LDAPURL = System.getenv("LDAP_URL");
   
-  out.println("LDAPURL"+ LDAPURL );
+  //out.println("LDAPURL"+ LDAPURL );
   
   try {
-			final String ldapAdServer = "ldap://catl0dc34.corp.cox.com:389";
+			final String ldapAdServer = LDAPURL;
 			final String ldapSearchBase = "dc=corp, dc=cox,dc=com";
 			
 						
