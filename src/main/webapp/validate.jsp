@@ -11,7 +11,9 @@
   String ldapUsername = request.getParameter("username");
   String ldapPassword = request.getParameter("password");
   
-  //out.println("UserName"+ username +"Password"+ password);
+  String LDAPURL = System.getenv("LDAPURL");
+  
+  out.println("LDAPURL"+ LDAPURL );
   
   try {
 			final String ldapAdServer = "ldap://catl0dc34.corp.cox.com:389";
