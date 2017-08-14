@@ -8,11 +8,12 @@
 </head>
 <body>
 <form name="login" action="validate.jsp" method="POST">
+    <h1>Welcome to ABC.com</h1>
 Enter User Name : <input type="text" id="username" name="username"/>
 </br>
-Eneter Password : <input type="password" id="password" name="password"/>
+Enter Password : <input type="password" id="password" name="password"/>
 </br>
-<input type="submit" name="login" id="loginBtn" />
+<input type="submit" name="Login" id="loginBtn" />
 
 </form>
 
