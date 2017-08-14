@@ -17,11 +17,7 @@
 			final String ldapAdServer = "ldap://catl0dc34.corp.cox.com:389";
 			final String ldapSearchBase = "dc=corp, dc=cox,dc=com";
 			
-			//final String ldapUsername = "Gunasekhar.Gaddam@cox.com"; // cox Email id
-			//final String ldapPassword = "Your cox password"; // cox password
-			
-			
-			
+						
 			Hashtable<String, Object> env = new Hashtable<String, Object>();
 			env.put(Context.SECURITY_AUTHENTICATION, "simple");
 			if(ldapUsername != null) {
